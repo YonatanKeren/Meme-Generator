@@ -1,0 +1,14 @@
+.gallery-grid-container {
+    height: 80vh;
+    width: 80vw;
+    margin: 5vh;
+    background-color: var(--clr-primary-base--1);
+    border-radius: 3%;
+}
+
+.key-word-container {
+    max-width: 50%;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}

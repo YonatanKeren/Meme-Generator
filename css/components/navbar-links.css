@@ -1,0 +1,29 @@
+.navbar-nav {
+    margin-left: 30%;
+    display: flex;
+}
+
+.navbar-nav * {
+    margin-right: 5px;
+    color: var(--clr-primary-base);
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        display: none; 
+    }
+    .navbar-collapse.show {
+        display: block; 
+    }
+    .navbar-toggler {
+        display: block; 
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .navbar-toggler {
+        display: none;
+    }
+}

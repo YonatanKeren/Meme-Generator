@@ -1,0 +1,15 @@
+:root {
+    --clr-primary-base--9: rgb(248, 248, 248);
+    --clr-primary-base--8: rgb(229, 229, 229);
+    --clr-primary-base--7: rgb(225, 224, 224);
+    --clr-primary-base--6: rgb(194, 193, 193);
+    --clr-primary-base--5: rgb(166, 166, 166);
+    --clr-primary-base--4: rgb(147, 146.42, 146.42);
+    --clr-primary-base--3: rgb(129, 129, 129);
+    --clr-primary-base--2: rgb(96, 96, 96);
+    --clr-primary-base--1: rgb(59, 58, 58);
+    --clr-primary-base: rgb(41, 41, 41);
+    --clr-primary-base-1: rgb(30,30,30);
+    --clr-click-base: rgb(87.92655, 201, 57.54075);
+    --main-width-max: 1250px
+}

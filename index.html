@@ -24,10 +24,10 @@
             <div class="navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Gallery</a>
+                        <a class="gallery-btn nav-link" aria-current="page" href="#">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Saved</a>
+                        <a class="memes-btn nav-link" href="#">Memes</a>
                     </li>
                 </ul>
                 <li class="nav-item dropdown clean-list">
@@ -44,27 +44,52 @@
         </div>
     </nav>
 
-<section class="main-gallery flex">
-    <main>
+    <section class="main-gallery flex">
+        <main>
 
-        <section class="gallery-grid-container grid">
-            <form class="gallery-search flex justify-content-between" role="search">
-                <input class="search-form form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <!-- <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
-                <div class="key-word-container flex">
-                    <button class="btn btn-tag text-white">Funny</button>
-                    <button class="btn btn-tag text-white">Random</button>
-                    <button class="btn btn-tag text-white">Relatable</button>
-                    <button class="btn btn-tag text-white">Dark</button>
-                    <button class="btn btn-tag text-white">Wholesome</button>
-                </div>    
-            </form>
-        
+            <section class="gallery-grid-container grid">
+                <form class="gallery-search flex justify-content-between" role="search">
+                    <input class="search-form form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <!-- <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+                    <div class="key-word-container flex">
+                        <button class="btn btn-tag text-white">Funny</button>
+                        <button class="btn btn-tag text-white">Random</button>
+                        <button class="btn btn-tag text-white">Relatable</button>
+                        <button class="btn btn-tag text-white">Dark</button>
+                        <button class="btn btn-tag text-white">Wholesome</button>
+                    </div>
+                </form>
+                <section class="template-grid">
+                    <button class="template-btn"><i class="fa-solid fa-upload template upload-img flex align-items-center justify-content-center"></i></button>
+                    <button class="template-btn"><img class="template template-1" src="/meme-imgs/meme-imgs (square)/1.jpg" alt="meme1"></button>
+                    <button class="template-btn"><img class="template template-2" src="/meme-imgs/meme-imgs (square)/2.jpg" alt="meme2"></button>
+                    <button class="template-btn"><img class="template template-3" src="/meme-imgs/meme-imgs (square)/3.jpg" alt="meme3"></button>
+                    <button class="template-btn"><img class="template template-4" src="/meme-imgs/meme-imgs (square)/4.jpg" alt="meme4"></button>
+                    <button class="template-btn"><img class="template template-5" src="/meme-imgs/meme-imgs (square)/5.jpg" alt="meme5"></button>
+                    <button class="template-btn"><img class="template template-6" src="/meme-imgs/meme-imgs (square)/6.jpg" alt="meme6"></button>
+                    <button class="template-btn"><img class="template template-7" src="/meme-imgs/meme-imgs (square)/7.jpg" alt="meme7"></button>
+                    <button class="template-btn"><img class="template template-8" src="/meme-imgs/meme-imgs (square)/8.jpg" alt="meme8"></button>
+                    <button class="template-btn"><img class="template template-9" src="/meme-imgs/meme-imgs (square)/9.jpg" alt="meme9"></button>
+                    <button class="template-btn"><img class="template template-10" src="/meme-imgs/meme-imgs (square)/10.jpg" alt="meme10"></button>
+                    <button class="template-btn"><img class="template template-11" src="/meme-imgs/meme-imgs (square)/11.jpg" alt="meme11"></button>
+                    <!-- add next/prvious page buttons-->
+                </section>
+            </section>
 
-        </section>
+            <section class="meme-editor" style="display: none;">
+                <canvas tabindex="1" class="meme-editor-canvas" width="600" height="450">
+                    <section class="editor-tools">
+                        <!-- <input>
+                <button>some editing buttons</button>
+                save share download -->
+                    </section>
 
-    </main>
-</section>
+
+
+            </section>
+
+        </main>
+    </section>
 
 </body>
 
@@ -72,6 +97,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-<script src="js/mem-controller.js"></script>
+<script src="js/services/storage.service.js"></script>
+<script src="js/services/meme-service.js"></script>
+<script src="js/meme-controller.js"></script>
 
 </html>

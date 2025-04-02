@@ -1,6 +1,7 @@
 .gallery-grid-container {
     height: 80vh;
     width: 80vw;
+    max-width: 828px;
     margin: 5vh;
     background-color: var(--clr-primary-base--1);
     border-radius: 3%;
@@ -11,4 +12,79 @@
     flex-wrap: wrap;
     gap: 5px;
     justify-content: center;
+    margin-right: 20px;
+}
+
+
+.template-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: auto;
+    height: 90%;
+    width: 80%;
+    padding: 10px;
+}
+
+.template-grid button {
+    background-color: var(--clr-primary-base--1);
+    
+}
+
+.template {
+    height: 15vw;
+    width: 15vw;
+    max-width: 155px;
+    max-height: 155px;
+    min-width: 100px;
+    min-height: 100px;
+    border: 1px solid var(--clr-primary-base-1);
+    border-radius: 5%;
+}
+
+
+.template-btn {
+    display: flex;
+    border: 0px;
+}
+
+@media(min-width: 1200px) {
+    .gallery-grid-container {
+        height: 80vh;
+        width: 80vw;
+        margin: 5vh;
+        background-color: var(--clr-primary-base--1);
+        border-radius: 3%;
+    }
+}
+
+@media(max-width: 820px) {
+    .gallery-grid-container {
+        height: 120vh;
+        width: 80vw;
+        max-width: 828px;
+        margin: 5vh;
+        background-color: var(--clr-primary-base--1);
+        border-radius: 3%;
+    }
+
+    .template-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 10px;
+        margin: auto;
+        height: 90%;
+        width: 80%;
+        padding: 10px;
+    }
+    
+    .template {
+        height: 25vw;
+        width: 25vw;
+        min-width: 100px;
+        min-height: 100px;
+        border: 1px solid var(--clr-primary-base-1);
+    }
 }

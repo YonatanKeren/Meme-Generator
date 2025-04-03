@@ -6,13 +6,10 @@ $('.memes-btn').click(showMemeStorage)
 $('.editor-btn').click(showEditor)
 $('.template-btn').click(showEditor)
 $('.template-btn').click(function () {
-    renderMeme(this)
-})
+        renderMeme(this)
+    })
 
-// $('.upload-btn').click(function () {
-//     onImgInput(this)
-// })
-// fix^^^^^^^^
+
 
 function showGallery(){
     $('.gallery-grid-container').show()

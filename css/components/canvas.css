@@ -1,0 +1,12 @@
+.canvas-container {
+    background-color: var(--clr-primary-base--1);
+    width: 40vw;
+    height: 40vw;
+    max-width: 416px;
+    max-height: 416px;
+}
+
+.meme-editor-canvas {
+    height: 100%;
+    width: 100%;
+}

@@ -1,5 +1,6 @@
 .gallery-search {
     padding: 10px;
+    max-height: 50px;
 }
 
 .search-form {

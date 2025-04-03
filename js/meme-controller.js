@@ -6,8 +6,13 @@ $('.memes-btn').click(showMemeStorage)
 $('.editor-btn').click(showEditor)
 $('.template-btn').click(showEditor)
 $('.template-btn').click(function () {
-    onSelectImg(this)
+    renderMeme(this)
 })
+
+// $('.upload-btn').click(function () {
+//     onImgInput(this)
+// })
+// fix^^^^^^^^
 
 function showGallery(){
     $('.gallery-grid-container').show()
@@ -27,6 +32,10 @@ function showEditor(){
     $('.meme-editor').show()
 }
 
-function renderMeme() {
-    // renders meme
+function renderMeme(img) {
+    drawImg(img)
+}
+
+function onImgInput(ev) {
+    loadImageFromInput(ev, renderMeme)
 }

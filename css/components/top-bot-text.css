@@ -1,0 +1,33 @@
+.meme-text-top {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    background-color: var(--clr-background-transparent);
+    border: 2px solid var(--clr-background-transparent);
+}
+
+.meme-text-top:hover {
+    border: 1px dashed var(--clr-primary-base--2);
+}
+
+.meme-text-bot {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    background-color: var(--clr-background-transparent);
+    border: 2px solid var(--clr-background-transparent);
+}
+
+.meme-text-bot:hover {
+    border: 1px dashed var(--clr-primary-base--2);
+}

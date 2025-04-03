@@ -51,6 +51,16 @@
 
         <main>
 
+            <!-- <div class="share-container">
+
+                <label for="file-input" class="file-input-button">Choose a File</label>
+                <section class="file-actions">
+                    <input onchange="onImgInput(event)" type="file" accept=".jpg, .jpeg, .png, .webp"
+                        class="file-input btn" id="file-input" name="image" />
+                    <div class="file-name" id="file-name"></div>
+                </section>
+            </div> -->
+
             <section class="gallery-grid-container grid">
                 <form class="gallery-search flex justify-content-between" role="search">
                     <input class="search-form form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -64,7 +74,7 @@
                     </div>
                 </form>
                 <section class="template-grid">
-                    <button class="template-btn"><i
+                    <button class="template-btn upload-btn"><i
                             class="fa-solid fa-upload template upload-img flex align-items-center justify-content-center"></i></button>
                     <button class="template-btn"><img class="template template-1"
                             src="/meme-imgs/meme-imgs (square)/1.jpg" alt="meme1"></button>
@@ -94,7 +104,9 @@
 
             <section class="meme-editor grid justify-content-center">
                 <section class="canvas-container">
-                    <canvas tabindex="1" class="meme-editor-canvas">
+                    <canvas  onclick="drawText(event)" tabindex="1" class="meme-editor-canvas"></canvas>
+                    <input class="meme-text-top" type="text" placeholder="Add text">
+                    <input class="meme-text-bot" type="text" placeholder="Add text">
                 </section>
                 <div class="editing-area flex align-items-center justify-content-center">
                     <section class="editor-tools">
@@ -118,6 +130,7 @@
     crossorigin="anonymous"></script>
 <script src="js/services/storage.service.js"></script>
 <script src="js/services/meme-service.js"></script>
+<script src="js/services/upload-service.js"></script>
 <script src="js/meme-controller.js"></script>
 
 </html>

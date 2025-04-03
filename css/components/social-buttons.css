@@ -1,0 +1,38 @@
+.social-btns {
+    padding: 3px 3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: var(--clr-primary-base--1);
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+}
+
+
+.save-btn {
+    background-color: #28a745;
+}
+
+.save-btn:hover {
+    background-color: #218838;
+}
+
+
+.download-btn {
+    background-color: #007bff;
+}
+
+.download-btn:hover {
+    background-color: #0069d9;
+}
+
+.share-btn {
+    background-color: #ffc507;
+}
+
+.share-btn:hover {
+    background-color: #e0a800;
+}

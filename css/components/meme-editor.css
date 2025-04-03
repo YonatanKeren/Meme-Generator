@@ -1,6 +1,17 @@
-.meme-editor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin: 5vh;
+@media(min-width:768px) {
+    .meme-editor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin: 5vh;
+    }
+}
+
+@media(max-width:768px) {
+    .meme-editor {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+        margin: 5vh;
+    }
 }

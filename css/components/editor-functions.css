@@ -1,0 +1,16 @@
+/* .editor-grid-box{
+    position: 'relative';
+} */
+
+.text-box-selector {
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    max-height: 30px;
+    height: 5vw;
+}

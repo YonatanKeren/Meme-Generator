@@ -104,14 +104,21 @@
 
             <section class="meme-editor grid justify-content-center">
                 <section class="canvas-container">
-                    <canvas  onclick="drawText(event)" tabindex="1" class="meme-editor-canvas"></canvas>
+                    <canvas tabindex="1" class="meme-editor-canvas"></canvas>
                     <input class="meme-text-top" type="text" placeholder="Add text">
                     <input class="meme-text-bot" type="text" placeholder="Add text">
                 </section>
                 <div class="editing-area flex align-items-center justify-content-center">
-                    <section class="editor-tools">
-                        <button>some editing buttons</button>
-                        save share download
+                    <section class="editor-tools grid">
+                        <div class="editor-grid-box grid">
+                            <input class="text-box-selector" type="text" placeholder="Add text">
+                        </div>
+                        <div class="editor-grid-box">
+                            <button>some editing buttons</button>
+                        </div>
+                        <div class="editor-grid-box">
+                            save share download
+                        </div>
                     </section>
                 </div>
 
@@ -132,5 +139,6 @@
 <script src="js/services/meme-service.js"></script>
 <script src="js/services/upload-service.js"></script>
 <script src="js/meme-controller.js"></script>
+<script src="js/gallery-controller.js"></script>
 
 </html>

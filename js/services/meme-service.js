@@ -25,6 +25,10 @@ function init() {
     gCtx = gElCanvas.getContext('2d')
 }
 
+function getMeme() {
+    return gMeme
+}
+
 function drawImg(btn) {
     const imgSrc = $(btn).find("img").attr("src")
     const elImg = new Image()

@@ -1,10 +1,12 @@
 .main-layout {
     display: grid;
-    grid-template-columns: minmax(auto, 1fr) minmax(auto, 984px) minmax(auto, 1fr);
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    /* grid-template-columns: minmax(50px, 1fr) minmax(auto, 984px) minmax(50px , 1fr); */
 }
 
-.main-layout>* {
+/* .main-layout>* {
     grid-column: 2/-2;
-}
+} */
 
 

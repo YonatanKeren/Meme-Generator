@@ -9,15 +9,24 @@
     padding: 5px;
     max-height: 30px;
     height: 5vw;
+    border-radius: 6px;
 }
 
 .editing-buttons {
-    height: 3.4vw;
-    width: 3.4vw;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
     align-items: center;
     justify-content: center;
     border-radius: 3px;
     margin: 3px;
+}
+
+@media(min-width: 900px) {
+    .editing-buttons {
+        max-width: 30.4px;
+        /* max-height: 30.4px; */
+    }
 }
 
 .editing-buttons:first-child {
@@ -26,8 +35,19 @@
 
 .social-btns-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; /* Spacing between buttons */
-    width: 100%; /* Full width */
-    max-width: 400px; /* Adjust as needed */
-    margin: auto; /* Center the grid */
+    gap: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+@media (max-width: 392px) {
+    .social-btns-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 5px;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
 }

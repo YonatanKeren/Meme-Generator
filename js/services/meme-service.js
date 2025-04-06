@@ -20,7 +20,6 @@ var gMeme = {
 var gKeywordSearchCountMap = { 'funny': 12, 'cat': 16, 'baby': 2 }
 
 function init() {
-    showEditor() // change when done working on editor
     gElCanvas = document.querySelector('.meme-editor-canvas')
     gCtx = gElCanvas.getContext('2d')
 }

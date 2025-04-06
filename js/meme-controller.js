@@ -1,6 +1,6 @@
 'use strict'
 
-$(init) 
+// $(init) 
 $('.gallery-btn').click(showGallery)
 $('.memes-btn').click(showMemeStorage)
 $('.editor-btn').click(showEditor)

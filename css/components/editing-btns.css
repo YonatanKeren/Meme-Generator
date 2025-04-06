@@ -4,7 +4,7 @@
 }
 
 .swap-text-box-btn {
-    margin-left: 27px;
+    margin-left: 10px;
 }
 
 .text-box-down-btn {
@@ -22,7 +22,9 @@
     margin-left: 20px;
 }
 
-.row1 > *, .row2 > *, .row3 > * {
+.row1>*,
+.row2>*,
+.row3>* {
     cursor: pointer;
 }
 
@@ -49,7 +51,7 @@
     margin-top: 9px;
 }
 
-.row2 > *:not(:first-child) {
+.row2>*:not(:first-child) {
     margin-right: 15px;
 }
 
@@ -58,6 +60,22 @@
     background: linear-gradient(135deg, red, orange, yellow, green, blue, purple);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+}
 
-  
+.fa-trash {
+    color: grey;
+}
+
+.fa-s {
+    -webkit-text-stroke: 1px rgb(0, 255, 64);
+}
+
+.fa-bold {
+    font-weight: bolder;
+    color: black;
+}
+
+.fa-italic {
+    font-size: 0.8em;
+    opacity: 0.8;
+}

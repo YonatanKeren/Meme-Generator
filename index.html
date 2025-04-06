@@ -74,30 +74,22 @@
                     </div>
                 </form>
                 <section class="template-grid">
-                    <button class="template-btn"><i
-                            class="fa-solid fa-upload template upload-img flex align-items-center justify-content-center"></i></button>
-                    <button class="template-btn"><img class="template template-1"
-                            src="/meme-imgs/meme-imgs (square)/1.jpg" alt="meme1"></button>
-                    <button class="template-btn"><img class="template template-2"
-                            src="/meme-imgs/meme-imgs (square)/2.jpg" alt="meme2"></button>
-                    <button class="template-btn"><img class="template template-3"
-                            src="/meme-imgs/meme-imgs (square)/3.jpg" alt="meme3"></button>
-                    <button class="template-btn"><img class="template template-4"
-                            src="/meme-imgs/meme-imgs (square)/4.jpg" alt="meme4"></button>
-                    <button class="template-btn"><img class="template template-5"
-                            src="/meme-imgs/meme-imgs (square)/5.jpg" alt="meme5"></button>
-                    <button class="template-btn"><img class="template template-6"
-                            src="/meme-imgs/meme-imgs (square)/6.jpg" alt="meme6"></button>
-                    <button class="template-btn"><img class="template template-7"
-                            src="/meme-imgs/meme-imgs (square)/7.jpg" alt="meme7"></button>
-                    <button class="template-btn"><img class="template template-8"
-                            src="/meme-imgs/meme-imgs (square)/8.jpg" alt="meme8"></button>
-                    <button class="template-btn"><img class="template template-9"
-                            src="/meme-imgs/meme-imgs (square)/9.jpg" alt="meme9"></button>
-                    <button class="template-btn"><img class="template template-10"
-                            src="/meme-imgs/meme-imgs (square)/10.jpg" alt="meme10"></button>
-                    <button class="template-btn"><img class="template template-11"
-                            src="/meme-imgs/meme-imgs (square)/11.jpg" alt="meme11"></button>
+                    <i
+                        class="fa-solid fa-upload template upload-img template-btn flex align-items-center justify-content-center"></i>
+                    <img class="template template-1 template-btn" src="/meme-imgs/meme-imgs (square)/1.jpg" alt="meme1">
+                    <img class="template template-2 template-btn" src="/meme-imgs/meme-imgs (square)/2.jpg" alt="meme2">
+                    <img class="template template-3 template-btn" src="/meme-imgs/meme-imgs (square)/3.jpg" alt="meme3">
+                    <img class="template template-4 template-btn" src="/meme-imgs/meme-imgs (square)/4.jpg" alt="meme4">
+                    <img class="template template-5 template-btn" src="/meme-imgs/meme-imgs (square)/5.jpg" alt="meme5">
+                    <img class="template template-6 template-btn" src="/meme-imgs/meme-imgs (square)/6.jpg" alt="meme6">
+                    <img class="template template-7 template-btn" src="/meme-imgs/meme-imgs (square)/7.jpg" alt="meme7">
+                    <img class="template template-8 template-btn" src="/meme-imgs/meme-imgs (square)/8.jpg" alt="meme8">
+                    <img class="template template-9 template-btn" src="/meme-imgs/meme-imgs (square)/9.jpg" alt="meme9">
+                    <img class="template template-10 template-btn" src="/meme-imgs/meme-imgs (square)/10.jpg"
+                        alt="meme10">
+                    <img class="template template-11 template-btn" src="/meme-imgs/meme-imgs (square)/11.jpg"
+                        alt="meme11">
+
                     <!-- add next/prvious page buttons-->
                 </section>
             </section>
@@ -108,7 +100,7 @@
                     <input class="meme-text-top" type="text" placeholder="Add text">
                     <input class="meme-text-bot" type="text" placeholder="Add text">
                 </section>
-                <div class="editing-area flex align-items-center justify-content-center">
+                <div class="editing-area flex justify-content-center">
                     <section class="editor-tools grid">
                         <div class="editor-grid-box grid">
                             <input class="text-box-selector" type="text" placeholder="Add text">
@@ -117,19 +109,26 @@
                             <div class="row1 flex align-items-center">
                                 <button class="text-box-up-btn swap-text-box-btn editing-buttons">↑</button>
                                 <button class="text-box-down-btn swap-text-box-btn editing-buttons">↓</button>
-                                <button class="editing-buttons"></button>
-                                <button class="editing-buttons"></button>
+                                <i class="add-line-btn editing-buttons fa-solid fa-plus"></i>
+                                <i class="delete-line-btn editing-buttons fa-solid fa-trash"></i>
                             </div>
                             <div class="row2 flex align-items-center">
-                                <button class="editing-buttons"></button>
-                                <button class="editing-buttons"></button>
-                                <button class="editing-buttons"></button>
-                                <button class="editing-buttons"></button>
+                                <select class="font-select" name="Font">
+                                    <option value="font1">Font 1</option>
+                                    <option value="font2">Font 2</option>
+                                    <option value="font3">Font 3</option>
+                                </select>
+                                <i class="text-color-btn fa-solid fa-palette"></i>
+                                <i class="italic-btn fa-solid fa-italic"></i>
+                                <i class="bold-btn fa-solid fa-bold"></i>
+                                <i class="stroke-color-btn fa-solid fa-s"></i>
                             </div>
-                            <div class="row3 flex align-items-center">
-                                <button class="editing-buttons"></button>
-                                <button class="editing-buttons"></button>
-                                <button class="editing-buttons"></button>
+                            <div class="row3 flex">
+                                <div class="size-btn"><i class="fa-solid fa-font fa-lg"></i><sup>+</sup></div>
+                                <div class="size-btn"><i class="fa-solid fa-font fa-lg"></i><sup>-</sup></div>
+                                <i class="align-btn fa-solid fa-align-left"></i>
+                                <i class="align-btn fa-solid fa-align-center"></i>
+                                <i class="align-btn fa-solid fa-align-right"></i>
                             </div>
                         </div>
                         <div class="social-btns-grid editor-grid-box grid">

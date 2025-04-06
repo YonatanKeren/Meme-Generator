@@ -1,4 +1,4 @@
-@media(min-width:768px) {
+@media(min-width:770px) {
     .meme-editor {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -7,7 +7,7 @@
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:770px) {
     .meme-editor {
         display: grid;
         grid-template-rows: 1fr 1fr;

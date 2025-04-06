@@ -2,3 +2,62 @@
     color: black;
     /* background-color: var(--clr-background-transparent); */
 }
+
+.swap-text-box-btn {
+    margin-left: 27px;
+}
+
+.text-box-down-btn {
+    margin-left: 5px;
+}
+
+.row1>* {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-line-btn,
+.delete-line-btn {
+    margin-left: 20px;
+}
+
+.row1 > *, .row2 > *, .row3 > * {
+    cursor: pointer;
+}
+
+.font-select {
+    margin-right: 25px;
+    width: 80px;
+    text-align: center;
+}
+
+.row3 {
+    gap: 22px;
+}
+
+.row3:first-child {
+    margin-left: 20px;
+}
+
+.align-btn {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.size-btn {
+    margin-top: 9px;
+}
+
+.row2 > *:not(:first-child) {
+    margin-right: 15px;
+}
+
+
+.text-color-btn {
+    background: linear-gradient(135deg, red, orange, yellow, green, blue, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  

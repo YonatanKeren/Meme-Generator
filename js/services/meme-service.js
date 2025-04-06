@@ -29,8 +29,8 @@ function getMeme() {
     return gMeme
 }
 
-function drawImg(btn) {
-    const imgSrc = $(btn).find("img").attr("src")
+function drawImg(img) {
+    const imgSrc = $(img).attr("src")
     const elImg = new Image()
     elImg.src = imgSrc
     gCtx.clearRect(0, 0, gElCanvas.width, gElCanvas.height)

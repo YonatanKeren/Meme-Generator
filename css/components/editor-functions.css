@@ -25,13 +25,9 @@
 @media(min-width: 900px) {
     .editing-buttons {
         max-width: 30.4px;
-        /* max-height: 30.4px; */
     }
 }
 
-.editing-buttons:first-child {
-    margin-inline-start: 15px;
-}
 
 .social-btns-grid {
     grid-template-columns: repeat(3, 1fr);

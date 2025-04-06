@@ -56,12 +56,6 @@
 }
 
 
-.text-color-btn {
-    background: linear-gradient(135deg, red, orange, yellow, green, blue, purple);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .fa-trash {
     color: grey;
 }
